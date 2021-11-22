@@ -4,19 +4,19 @@
 
     <item
         android:id="@+id/actionmove"
-        android:icon="?attr/action_cut"
-        app:showAsAction="ifRoom"
-        android:title="@string/move" />
+        android:icon="?attr/actionModeCutDrawable"
+        android:title="@string/move"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/actioncopy"
-        android:icon="?attr/action_copy"
-        app:showAsAction="ifRoom"
-        android:title="@string/copy" />
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="@string/copy"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/actionrename"
-        android:icon="?attr/action_edit"
-        app:showAsAction="ifRoom"
-        android:title="@string/rename" />
+        android:icon="@drawable/holo_dark_action_edit"
+        android:title="@string/rename"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/actiondelete"
         android:icon="?attr/action_delete"
