@@ -4,18 +4,18 @@
 
     <item
         android:id="@+id/paste"
-        android:icon="?attr/action_paste"
-        app:showAsAction="ifRoom"
-        android:title="@string/paste" />
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="@string/paste"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/folderinfo"
-        android:icon="?attr/action_info"
-        app:showAsAction="ifRoom"
-        android:title="@string/dir_info" />
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/dir_info"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/search"
-        android:icon="?attr/action_search"
-        app:showAsAction="ifRoom"
-        android:title="@string/search" />
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
 
 </menu>
