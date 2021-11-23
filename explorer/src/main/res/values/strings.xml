@@ -101,11 +101,11 @@
     <string name="_selected">\u0020selected</string>
 
     <!-- directory info dialog -->
-    <string name="location">Location:</string>
-    <string name="total">Total space:</string>
-    <string name="free">Free space:</string>
-    <string name="block_size">Block size:</string>
-    <string name="used">Used:</string>
+    <string name="location">Current Location:</string>
+    <string name="total">Total Space:</string>
+    <string name="free">Free Space:</string>
+    <string name="block_size">Block Size:</string>
+    <string name="used">Used Space:</string>
 
     <!-- bookmarks -->
     <string name="bookmark">Bookmarks</string>
