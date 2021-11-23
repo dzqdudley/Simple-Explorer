@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.dnielfe.manager.BrowserActivity;
 import com.dnielfe.manager.R;
@@ -47,5 +48,9 @@ public class SettingsActivity extends ThemableActivity {
                 return true;
         }
         return false;
+    }
+    public void sendMessage1(View view) {
+        Intent intent = new Intent(this, com.dnielfe.manager.SearchActivity.class);
+        startActivity(intent);
     }
 }
