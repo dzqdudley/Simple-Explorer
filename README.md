@@ -1,6 +1,8 @@
 Simple Explorer
 ===========
 
+Merge or Rebase?
+
 Simple Explorer is a open source file explorer.
 
 ####License
