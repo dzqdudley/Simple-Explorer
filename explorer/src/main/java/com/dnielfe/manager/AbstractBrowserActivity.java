@@ -262,4 +262,8 @@ public abstract class AbstractBrowserActivity extends ThemableActivity implement
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         PermissionsManager.getInstance().notifyPermissionsChange(permissions, grantResults);
     }
+    public void sendMessage(View view) {
+        Intent intent = new Intent(this, com.dnielfe.manager.settings.SettingsActivity.class);
+        startActivity(intent);
+    }
 }
