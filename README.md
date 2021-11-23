@@ -1,10 +1,6 @@
 Simple Explorer
 ===========
 
-Rebase or Revert?
-
-Merge or Rebase?
-
 Simple Explorer is a open source file explorer.
 
 ####License
