@@ -266,4 +266,8 @@ public abstract class AbstractBrowserActivity extends ThemableActivity implement
         Intent intent = new Intent(this, com.dnielfe.manager.settings.SettingsActivity.class);
         startActivity(intent);
     }
+    public void sendMessage2(View view) {
+        Intent intent = new Intent(this, com.dnielfe.manager.debug.SampleActivity.class);
+        startActivity(intent);
+    }
 }

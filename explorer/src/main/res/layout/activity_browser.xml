@@ -20,7 +20,14 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/Setting_Button"
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage2"
+                android:text="Sample" />
+
+            <Button
+                android:id="@+id/Setting"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="sendMessage"
